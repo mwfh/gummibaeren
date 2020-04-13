@@ -1,0 +1,43 @@
+.number-range-control  {
+    -fx-padding:          5;
+    -fx-background-color: rgb(12, 12, 12);
+    -base-color:          rgb(58, 233, 6);
+    -out-of-range-color : red;
+}
+
+.number-range-control .background-circle {
+    -fx-stroke-width: 30;
+    -fx-stroke:       rgb(40, 40, 40);
+    -fx-fill:         transparent;
+}
+
+.number-range-control .bar {
+    -fx-stroke-width:    30;
+    -fx-stroke:          -base-color;
+    -fx-stroke-line-cap: round;
+    -fx-fill:            transparent;
+}
+
+.number-range-control .thumb {
+    -fx-fill:   rgb(40, 40, 40);
+    -fx-cursor: hand;
+}
+
+.number-range-control .value-display {
+    -fx-font-family: 'Lato Light';
+    -fx-font-size:   48;
+    -fx-fill:        white;
+}
+
+.number-range-control .tick {
+    -fx-stroke:       rgb(87, 87, 87);
+    -fx-stroke-width: 2;
+}
+
+.number-range-control .tick-label {
+    -fx-font-family: 'Lato Light';
+    -fx-font-size:   12;
+    -fx-fill:        rgb(87, 87, 87);
+}
+
+

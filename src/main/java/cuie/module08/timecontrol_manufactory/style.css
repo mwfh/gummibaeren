@@ -1,0 +1,25 @@
+.my-time-control {
+    -base-color: blue;
+    -fx-background-color: white;
+    -light-color: #FFFFFF;
+    -dark-color: #000000;
+    -time-green-color: #27C236;
+    -time-blue-color: #4456F8;
+    -time-orange-color: #FD8F29;
+}
+
+.my-time-control .editable-time{
+    -fx-background-color: pink;
+    -fx-text-fill: -time-green-color;
+}
+
+.my-time-control .caption-label{
+    -fx-background-color: orange;
+    -fx-font-size: 42;
+}
+
+.my-time-control .ellipse-light {
+    -fx-fill: blue;
+    -fx-stroke-width: 1;
+    -fx-stroke: black;
+}

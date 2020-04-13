@@ -1,0 +1,37 @@
+= cuie Courseware
+
+Das Courseware-Projekt dient dazu die Beispiele und Musterlösungen aus dem Unterricht zu verwalten und die Übungsbeispiele zu implementieren.
+
+In einem ersten Schritt soll das initial enthaltene "Hello World"-Beispiel in der Entwicklungsumgebung gestartet werden können.
+
+== Mit IDE-Unterstützung
+
+In IntelliJ kann via File -&gt; New -&gt; Project from Version Control … -&gt; Git
+
+ihr Repository von GitHub kopiert (gecloned) und anschliessend ein IntelliJ-Projekt generiert werden.
+
+Wenn alles gut gegangen ist sollte im Project-View der Java-Ordner unter src/main blau sein, der Java-Ordner unter src/test grün und Sie können das enthaltene Beispielprogramm direkt starten.
+
+== Falls es Probleme mit dem IntelliJ-Setup gibt
+
+Am besten den IntelliJ-Setup neu generieren zu lassen. Dazu verwendet man den File "build.gradle", der eine
+komplette und IDE-unabhängige Projektbeschreibung enthält.
+
+Die einzelnen Schritte:
+
+* Schliessen Sie alle geöffneten Projekte (File -&gt; Close Project)
+
+* Wählen Sie “OPEN” 
+
+* Es erscheint ein Finder-Fenster mit dem Sie zu ihrem Projekt navigieren.
+
+* Dort wählen Sie den File “build.gradle” aus.
+
+* Beim nächsten Dialog “Open as Project” wählen.
+
+
+Analog können Sie auch build.gradle in Eclipse oder NetBeans für den Projekt-Setup verwenden.
+
+== Bitte beachten Sie:
+
+Die benoteten Hausarbeiten und die Projektarbeit werden *nicht* in diesem Courseware-Projekt bearbeitet. Dafür wird es separate Repositories/Projekte geben.

@@ -1,0 +1,28 @@
+.root-pane {
+}
+
+.table-cell {
+    -fx-font-family: 'Lato Light';
+    -fx-font-size: 16;
+}
+
+.table-cell:hover {
+    -fx-background-color: red;
+}
+
+.scroll-bar:horizontal .thumb:hover {
+    -fx-background-color: green;
+}
+
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: blue;
+}
+
+.table-row-cell{
+    -fx-border-width: 2px;
+    -fx-border-color: green;
+}
+
+.column-header-background {
+    -fx-background-color: lightblue;
+}
