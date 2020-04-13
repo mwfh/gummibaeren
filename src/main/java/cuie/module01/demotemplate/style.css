@@ -1,9 +1,0 @@
-.root-pane {
-    -fx-padding: 20;
-}
-
-.button {
-    -fx-text-fill:   red;
-    -fx-font-family: 'DS-Digital'; /*Name der Font im TTF File*/ /*Font muss immer erst im Pane geladen werden!*/
-    -fx-font-size: 24;
-}
