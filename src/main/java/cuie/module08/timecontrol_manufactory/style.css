@@ -9,17 +9,28 @@
 }
 
 .my-time-control .editable-time{
-    -fx-background-color: pink;
     -fx-text-fill: -time-green-color;
+    -fx-pref-width: 55;
+    -fx-max-width: 80;
+    -fx-font-size: 19;
+    -fx-text-box-border: transparent;
+    -fx-focus-color: transparent;
+    -fx-background-color: -fx-control-inner-background;
+    -fx-background-insets: 0;
+
 }
 
 .my-time-control .caption-label{
-    -fx-background-color: orange;
-    -fx-font-size: 42;
+    -fx-text-fill: black;
+    -fx-font-size: 12;
+    -fx-pref-width: 55;
+    -fx-max-width: 80;
+    -fx-alignment:center;
 }
 
 .my-time-control .ellipse-light {
-    -fx-fill: blue;
+    -fx-fill: -light-color;
     -fx-stroke-width: 1;
     -fx-stroke: black;
+    -fx-effect: dropshadow(three-pass-box, C4C4C4, 40, 0, 0, 0);
 }
